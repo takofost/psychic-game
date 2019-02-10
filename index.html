@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW3r</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="assets/script/game.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<!-- Jumbotron for Title -->
+<div class="jumbotron">
+    <h1 class="text-center">Psychic Game</h1>
+    <h3 class="text-center">Guess the Odyssey character</h3>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+      
+      <div class="col-lg-4">
+        <div class="card">
+          <h3 class="card-header">Stats</h3>
+
+          <div class="card-body">
+            <h4 id = "wins"></h4>
+            <h4 id = "losses"></h4>
+            <h4 id = "correct"></h4>
+            <h4 id = "incorrect"></h4>
+            <h4 id = "lives"></h4>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6">
+        <div class="card">
+          <h3 class="card-header">Game</h3>
+          <div class="card-body">
+            <h1 id="blank"></h1>
+            <hr>
+            <h1 id="hidden"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+initializeGame();
+</script>
+</html>
